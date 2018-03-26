@@ -1,10 +1,10 @@
 # candyvault
-The ultimate devops machine
+The ultimate devops machine.
 
 ## Getting Started
 
 This project supports the creation of a vault box that will store candies for developers.
-As soon as a development task gets solved the developer will be able to open the vault using his or her personal RFID vault card.
+As soon as a development task gets solved the developer will be able to open the vault using his or her personal RFID vault card. On the other hand the vault will remain closed if the developer is not having candies available.
 
 ## Hardware
 
