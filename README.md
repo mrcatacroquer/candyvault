@@ -17,10 +17,17 @@ Parts needed:
  
 ## Software
 
-The code is having two main applications.
+The code is having two main applications:
 
 * [CaldyVault API](candyvault.py) - The API
 The WEB API that will accept web requests in order to grant candies to the develpers. It uses the Python [Flask Microframework](http://flask.pocoo.org/) and the [pymysql](https://pymysql.readthedocs.io/en/latest/) Pyhton library.
 
 * [CandyVault Keeper](candyvaultkeeper.py) - The Keeper
 The tool in charge of opening the vault door. It will check if the card used is having a candy available.
+
+## Want to replicate the project? You will need to...
+
+* Create the MySQL database, schema is used at the [MySQL helper script](mysqlhelper.py).
+* Update the MySQL database name, user name and password at the [MySQL helper script](mysqlhelper.py) file.
+* The [addusers.py](addusers.py) will help you to read RFID cards and store them as users at the MySQL DB.
+* Create a new "secret_key" for the Flask API application. Check the [Flask documentation](http://flask.pocoo.org/docs/0.12/quickstart/) for more help.
