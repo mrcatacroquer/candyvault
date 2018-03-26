@@ -20,9 +20,11 @@ Parts needed:
 The code is having two main applications:
 
 * [CaldyVault API](candyvault.py) - The API
+
 The WEB API that will accept web requests in order to grant candies to the develpers. It uses the Python [Flask Microframework](http://flask.pocoo.org/) and the [pymysql](https://pymysql.readthedocs.io/en/latest/) Pyhton library.
 
 * [CandyVault Keeper](candyvaultkeeper.py) - The Keeper
+
 The tool in charge of opening the vault door. It will check if the card used is having a candy available.
 
 ## Want to replicate the project? You will need to...
